@@ -1,5 +1,5 @@
 /*
-background purple: #540B51
+background purple:
 background ivory: #F3EAE2
 button blue: #4285F4
 titles black: #191817
@@ -8,3 +8,86 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+.teamwork {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.background {
+  background-color: #540b51;
+  margin: 0;
+}
+.container1 {
+  width:100px
+}
+.navLinks {
+  display: none;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width:620px) {
+    .menu, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+.fontOrange {
+  color: #fac24a;
+}
+.fontWhite {
+  color: white;
+}
+.text {
+  text-align: center;
+}
+.btnContainer {
+  display: list-item;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 80%;
+  text-align: center;
+  background-color: #4285f4;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 80%;
+  text-align: center;
+  margin
+}
+.googleImage {
+  background-color: white;
+}
+.screenshotsCntnr {
+
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+.navBtn {
+  display:flex;
+  background-color: #540b51;
+  flex-direction: row;
+  justify-content: end;
+  margin: 0;
+  
+ 
+}
+.text1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding-left: 70px;
+  padding-top: 50px;
+}
+.imageCntnr {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
